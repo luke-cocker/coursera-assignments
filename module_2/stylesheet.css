@@ -33,6 +33,7 @@ h2{
 	right: 20px;
 	width: 150px;
 	padding: 10px;
+	border: 1px solid #565656;
 	background: #565656;
 }
 
@@ -44,9 +45,17 @@ p{
 	padding: 70px 30px 30px 30px;
 }
 
-.menuItem{
+div{
 	padding: 20px;
 	position: relative;
+}
+
+#beef{
+	background: #37306b;
+}
+
+h2.sushi{
+	background: #751a33;
 }
 
 
@@ -54,11 +63,11 @@ p{
 /******************** Medium devices only ********************/
 
 @media (min-width: 768px) and (max-width: 991px){
-.menuItem{
+	div{
 		width: 50%;
 		float: left;
 	}
-#Sushi{
+div.sushi{
 	width: 100%;
 }
 }
@@ -66,7 +75,7 @@ p{
 /******************** Large devices only ********************/
 
 @media (min-width: 992px){
-	.menuItem{
+	div{
 		width: 33%;
 		float:left;
 	}
